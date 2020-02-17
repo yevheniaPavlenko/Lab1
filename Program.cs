@@ -15,7 +15,7 @@ namespace ConsoleApplication1
             double a = double.Parse(Console.ReadLine());
             Console.Write("x=");
             double x = double.Parse(Console.ReadLine());
-            Console.Write("c=");пше
+            Console.Write("c=");
             double c = double.Parse(Console.ReadLine());
             // реалізація алгоритму розв'язання задачі
             double y = Math.Pow((c * x - a), 3) + Math.Log(x) / 2*Math.Sin(PI / 3 + x);
